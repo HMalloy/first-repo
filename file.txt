@@ -1,3 +1,4 @@
 Adding a line of text
 Making changes to my file
-Changing it up 
+Changing it up
+Testing editing in Atom
