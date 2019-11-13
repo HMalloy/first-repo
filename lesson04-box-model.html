@@ -4,11 +4,21 @@
     <meta charset="utf-8">
     <title>Lesson Four: Box Model Activity</title>
     <style>
-      /*Add CSS style here using the cats class*/
+      /*Add CSS style here using the cats class
       article.cats {
         width:500px;
         background:grey;
         font-size: 30px;
+      }*/
+      article.content-box {
+        height: 5em;
+        width: 5em;
+        padding: 4em;
+        border:1em solid;
+        margin: 1em;
+      }
+      article#border-box {
+        box-sizing: border-box;
       }
      </style>
   </head>
@@ -21,7 +31,12 @@
 
       <section>
         <h2>If They Fits, They Sits</h2>
-        <article class="cats">
+        <article class="content-box">
+          <a href="https://www.youtube.com/watch?reload=9&v=J11uu8L8FTY">Video evidence!</a>
+          <p>Big cats like refrigerator boxes.</p>
+          <p>House cats like shoe boxes.</p>
+        </article>
+        <article id="border-box" class="content-box">
           <a href="https://www.youtube.com/watch?reload=9&v=J11uu8L8FTY">Video evidence!</a>
           <p>Big cats like refrigerator boxes.</p>
           <p>House cats like shoe boxes.</p>
