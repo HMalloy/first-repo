@@ -1,27 +1,48 @@
 a {
   text-decoration:none;
 }
-a[href^="http:"] {
+/*a[href^="http:"] {
   background-color: red;
+}*/
+a[href="http://www.tacoipsum.com/"] {
+  color:red;
 }
-footer a:visited {
-  color:magenta;
+p[class^="alert"] {
+  padding:0.5rem;
+  border:2px solid;
+}
+.alert-success {
+  color:green;
+  background-color:greenyellow;
+  border-color:green;
+}
+.alert-error {
+  color:red;
+  background-color:pink;
+  border-color:red;
 }
 footer a:hover {
-  text-decoration: underline;
+  color:magenta;
+  font-size: 150%;
+  font-family: monospace;
+}
+aside a {
+  text-decoration: none;
+  color:green;
 }
 aside a:visited {
-  font-style: italic;
+  color:orange;
 }
 aside a:hover {
   font-size:200%;
+  text-decoration: underline;
 }
 h2:hover {
   background-color:pink;
 }
-footer:hover {
+/*footer:hover {
   border:3px solid orange;
-}
+}*/
 
 .fillings li:nth-child(odd) {
   color:orange;
@@ -29,4 +50,8 @@ footer:hover {
 
 .fillings li:nth-child(even) {
   color:red;
+}
+
+p::first-letter {
+  font-size:200%;
 }
