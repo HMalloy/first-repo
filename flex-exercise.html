@@ -8,9 +8,11 @@
         font-family:arial, san-serif;
       }
       .flexbox-container {
+        border:1px dotted gray;
         display:flex;
-        flex-flow:row wrap-reverse;
-        justify-content:space-between;
+        flex-direction:row-reverse;
+        align-items:end;
+        justify-content:center;
       }
       .one, .two, .three, .four, .five, .six, .seven, .eight {
         color:white;
@@ -43,6 +45,9 @@
       }
       .eight {
         background-color:turquoise;
+      }
+      .flexbox-container div:nth-child(even) {
+        height:6rem;
       }
     </style>
   </head>
