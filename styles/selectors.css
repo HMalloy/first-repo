@@ -1,6 +1,32 @@
+a {
+  text-decoration:none;
+}
+a[href^="http:"] {
+  background-color: red;
+}
 footer a:visited {
   color:magenta;
 }
+footer a:hover {
+  text-decoration: underline;
+}
 aside a:visited {
   font-style: italic;
+}
+aside a:hover {
+  font-size:200%;
+}
+h2:hover {
+  background-color:pink;
+}
+footer:hover {
+  border:3px solid orange;
+}
+
+.fillings li:nth-child(odd) {
+  color:orange;
+}
+
+.fillings li:nth-child(even) {
+  color:red;
 }
