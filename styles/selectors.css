@@ -7,20 +7,6 @@ a {
 a[href="http://www.tacoipsum.com/"] {
   color:red;
 }
-p[class^="alert"] {
-  padding:0.5rem;
-  border:2px solid;
-}
-.alert-success {
-  color:green;
-  background-color:greenyellow;
-  border-color:green;
-}
-.alert-error {
-  color:red;
-  background-color:pink;
-  border-color:red;
-}
 footer a:hover {
   color:magenta;
   font-size: 150%;
@@ -54,4 +40,8 @@ h2:hover {
 
 p::first-letter {
   font-size:200%;
+}
+
+.history p:nth-child(3n+1) {
+  background-color:orange;
 }
